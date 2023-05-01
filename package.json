@@ -1,0 +1,25 @@
+{
+    "name": "personalwebsite",
+    "version": "1.0.0",
+    "description": "This is Vaibhav Gopalakrishnan's Personal Website",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "personal",
+        "website",
+        "resume",
+        "vaibhav",
+        "gopal",
+        "blog",
+        "review",
+        "test"
+    ],
+    "author": "Vaibhav Gopalakrishnan",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nedb": "^1.8.0"
+    }
+}

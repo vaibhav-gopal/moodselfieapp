@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Data Selfie App</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/logs">All</a>
+    </nav>
+    <p>Latitude: <span id="Latitude"></span>&deg;</p>
+    <p>Longitude: <span id="Longitude"></span>&deg;</p>
+    <div id="interactive">
+        <label for="textInput">Current Mood:</label>
+        <input type="text" id="textInput" />
+        <input id="submit" type="button" value="Submit" />
+    </div>
+    <script src="dataSelfie.js">
+    </script>
+</body>
+
+</html>
